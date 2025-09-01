@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css2?family=Playwrite+CA:wght@100..400&family=Satisfy&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap);
+
+body {
+    background-color: #fbfdf6;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    background-color: #fffeec;
+    justify-content: space-around;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-head {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+.nav-head a {
+    text-decoration: none;
+    color: #7d7d75;
+    font-family: 'Playwrite CA', sans-serif;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-head a:hover {
+    background-color: #e6a9c6;
+    color: white;
+    border-radius: 40px;
+}
+.logo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #797768;
+    margin-top: -27px;
+    padding: 20px;
+}
+
+.description {
+    font-family: 'Playwrite CA', sans-serif;
+    font-size: 20px;
+    color: #9b9b93;
+    margin-top: -40px;
+}
+
+.banner-wrapper {
+    max-width: 90vw;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    gap: 0;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    box-shadow: 0 4px 8px rgba(55, 50, 50, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.intro {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playwrite CA', sans-serif;
+    color: #fffeec;
+    background-color: #797768;
+    font-size: 15px;
+    margin-top: -20px;
+    padding: 2px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #fff0f594;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.product-card h3 {
+    font-family: 'comic sans ms', 'Comic Sans MS', cursive, sans-serif;
+    color: #797768;
+    margin: 10px 0 5px 0;
+}
+
+.product-card p {
+    font-family: 'comic sans ms', 'Comic Sans MS', cursive, sans-serif;
+    color: #797768;
+    margin: 5px 0;
+}
+
+.product-card button {
+    background-color: #e6a9c6;
+    color: white;
+    font-family: 'comic sans ms', 'Comic Sans MS', cursive, sans-serif;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.product-card button:hover {
+    background-color: #cf3d8b;
+}
+
+.product-card button:active {
+    transform: scale(0.95);
+}
+
+.aboutus {
+    padding: 100px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'comic sans ms', 'Comic Sans MS', cursive, sans-serif;
+    color: #797768;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contactus {
+    width: 100%;
+    margin: 0px;
+    background-color: #797768;
+    padding: 10px;
+    text-align: auto;
+    font-size: 15px;
+    font-family: 'comic sans ms', 'Comic Sans MS', cursive, sans-serif;
+    color: #fbfdf6;
+}
+
+.contactus h2 {
+    text-align: center;
+    margin-top: 10;
+    font-family: 'playwrite ca', sans-serif;
+}
+
+.contactus button {
+    background-color: #797768;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.contactus button:hover {
+    background-color: #797768;
+}
+
+.contactus button:active {
+    transform: scale(0.80);
+}
+
+video {
+    border-radius: 20px;
+}
+span {
+    font-style: italic ;
+    font-weight: bold;
+}
